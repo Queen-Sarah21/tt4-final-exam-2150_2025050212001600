@@ -1,0 +1,28 @@
+# Logs
+*.log
+
+# Dependency directories
+**/node_modules/
+**/bin/
+**/obj/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Docker files
+.env
+*.pid
+
+# OS-specific
+*.swp
+*.swo
+*.sln
