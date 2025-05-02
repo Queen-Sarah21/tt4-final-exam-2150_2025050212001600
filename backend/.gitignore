@@ -6,6 +6,9 @@
 # dotenv files
 .env
 
+#db
+workout.db
+
 # User-specific files
 *.rsuser
 *.suo

@@ -4,11 +4,11 @@ FROM node:lts-alpine AS builder
 # inside of image/containaer
 WORKDIR /app
 
-COPY package*.json /
+COPY ./frontend/package*.json /app/
 
 RUN npm install
 
-COPY . .
+COPY ./frontend /app
 
 RUN npm run build
 

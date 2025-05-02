@@ -14,7 +14,7 @@ services:
 
   app:
     build:
-      context: ./frontend                      
+      context: ./                      
       dockerfile: Dockerfile
     depends_on:
       - api                            
